@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let input = prompt("Enter Your number for getting its factorial : ")
+        let factorial = []
+        for (let i = 1;i<=input;i++){
+            factorial.push(i)
+        }
+        const factorialFunc = (a,b) =>{
+            return a*b
+        }
+        console.log(factorial.reduce(factorialFunc))
+
+    </script>
+</body>
+</html>
